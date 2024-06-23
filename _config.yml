@@ -15,29 +15,55 @@ email: gborgoahin@icloud.com
 twitter_username: BorgGautam
 
 # Set this to true to get LaTeX math equation support
-use_math: true
+# use_math: true
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics:
 
 # Everything below here can be ignored, unless you want to change the theme entirely
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-octicons
-  - jekyll-github-metadata
-
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
-
-highlighter: rouge
+# theme: jekyll-theme-minimal
 markdown: kramdown
-kramdown:
-  math_engine: katex
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]  
+
+# Pages Path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.text
+  - README.md
+  - SECURITY.md
+
+# titles_from_headings:
+#   enabled:     true
+#   strip_title: true
+#   collections: true
+
+# highlighter: rouge
+# markdown: kramdown
+# kramdown:
+#   math_engine: katex
+#   input: GFM
+#   auto_ids: true
+#   hard_wrap: false
+#   syntax_highlighter: rouge
