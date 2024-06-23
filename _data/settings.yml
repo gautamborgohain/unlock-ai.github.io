@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Gautam, <br> Machine Learning and Data Science Specialist
+  hero-title: We help you Unlock greater revenue with Data Science and Artificial Intelligence 
 
 social:
   - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/gautamborgohain90/" }
@@ -45,7 +45,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Accomplished Data Scientist and Software Engineer with expertise in statistics, online experimentation, and ML system development. Passionate about using data to drive business growth and experienced in leading high-performing teams.
+blurb: We are team of Data Scientists, Software Engineers with expertise in experimentation, and Artifical Intelligence. We are passionate about using data to drive business growth.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -296,5 +296,5 @@ client-slider-items:
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
+contact-title: Want to learn how we can Unlock efficiency with AI ? <br><br> Drop us a message !
 contact-email: myzggwlq
