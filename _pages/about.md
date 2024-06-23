@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About Me
+title: About Us
 author: Gautam Borgohain
 image: assets/images/about/author.png
 ---
