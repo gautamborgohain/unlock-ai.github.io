@@ -8,7 +8,7 @@ author: gautamborgohain
 description: AI and Data Science Consulting - Form Prototype to Production
 email: hello@unlock-ai.sg
 phone: +65 9494 9494
-address: 
+address:
 copyright: Copyright &copy; 2020 Unlock-AI.sg and Theme designed by [Themefisher](https://themefisher.com)
 
 menu:
@@ -40,7 +40,7 @@ hero:
   hero-sub-title: Unlock AI builds cost-effective, high-speed AI prototypes for startups, helping you secure investment without the need for early hiring.
 
 # social:
-  # - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/gautamborgohain90/" }
+# - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/gautamborgohain90/" }
 
 #-------------------------------
 # About (Section and Page)
@@ -69,7 +69,7 @@ work-process:
 
   - title: "Monitoring & Optimization"
     icon: "assets/images/icons/monitoring.png"
-    content: "Monitoring performance and making improvements to ensure sustained success."    
+    content: "Monitoring performance and making improvements to ensure sustained success."
 
 # My Team Section
 team:
@@ -88,7 +88,7 @@ team:
 #-------------------------------
 # Skills Section
 
-skills-title: How We Drive Business Growth
+skills-title: How can AI help ?
 skills:
   - { name: Large Language Models, color: "#bdecf6", value: "90%" }
   - { name: Predictive analytics, color: "#fdb157", value: "90%" }
@@ -105,18 +105,6 @@ experience:
       icon: "dyson_logo.png",
       date: "Mar 2024 - Present",
       organization: "Dyson",
-    }
-  - {
-      name: Chief Data Scientist,
-      icon: "corgiai_logo.png",
-      date: "Feb 2023 - Feb 2024",
-      organization: "CorgiAI (YC - W23)",
-    }
-  - {
-      name: Senior Data Scientist and Tech Lead,
-      icon: "twitter_logo.png",
-      date: "Aug 2020 - Jan 2023",
-      organization: "Twitter",
     }
 
 #-------------------------------
@@ -148,13 +136,14 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Services
+services-title: What you get
+services-sub-title: AI Prototypes - Scaling from 1->1000
 services:
   - {
       name: Data Science and AI Consulting,
       icon: ti-stats-up,
       description: "Leverage advanced analytics and AI to solve business challenges and drive strategic growth.",
-      active: ,# Add true to select section
+      active: false,
     }
   - {
       name: POC Development,
@@ -166,7 +155,7 @@ services:
       name: Process Optimization,
       icon: ti-support,
       description: "Streamline operations and enhance efficiency through data-driven process improvements.",
-      active: ,# Add true to select section
+      active: false,
     }
 
 #-------------------------------
