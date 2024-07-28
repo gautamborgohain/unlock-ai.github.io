@@ -140,23 +140,24 @@ services-title: What you get
 services-sub-title: AI Prototypes - Scaling from 1->1000
 services:
   - {
-      name: Data Science and AI Consulting,
-      icon: ti-stats-up,
-      description: "Leverage advanced analytics and AI to solve business challenges and drive strategic growth.",
-      active: false,
-    }
-  - {
-      name: POC Development,
+      name: "Working Prototypes: Faster & Affordable",
       icon: ti-bar-chart,
-      description: "Rapidly validate and demonstrate the feasibility of data-driven AI / Gen AI solutions with tailored proof of concepts.",
+      description: "Rapidly validate and showcase your AI/Gen-AI solution with a custom prototype. Get a working model in just 2 weeks, proving your product's value from 0-1 and secure funding faster.",
       active: true, # Add true to select section
     }
   - {
-      name: Process Optimization,
-      icon: ti-support,
-      description: "Streamline operations and enhance efficiency through data-driven process improvements.",
-      active: false,
+      name: "AI Consulting: Scaling from 1 -> 1000",
+      icon: ti-stats-up,
+      description: "Transform your AI from concept to scale with expert consultation on deployment and seamless integration. Streamline operations and enhance efficiency through data-driven process improvements.",
+      active: true,
     }
+
+  # - {
+  #     name: Process Optimization,
+  #     icon: ti-support,
+  #     description: "Streamline operations and enhance efficiency through data-driven process improvements.",
+  #     active: false,
+  #   }
 
 #-------------------------------
 # Portfolio (Section and Page)
