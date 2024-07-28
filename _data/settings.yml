@@ -36,7 +36,8 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: We help you Unlock greater revenue with Data Science and Artificial Intelligence 
+  hero-title: Get your startup funsing with done-for-you prototypes
+  hero-sub-title: Unlock AI builds cost-effective, high-speed AI prototypes for startups, helping you secure investment without the need for early hiring.
 
 # social:
   # - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/gautamborgohain90/" }
@@ -48,7 +49,7 @@ hero:
 blurb: We are team of Data Scientists, Software Engineers and Technologists with deep expertise in data analysis, experimentation and Artifical Intelligence. We can help you use your data to drive business growth.
 
 blurb-btn-link: "/about"
-blurb-btn-name: know more
+blurb-btn-name: Contact Us
 
 # About Page
 

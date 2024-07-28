@@ -1,5 +1,5 @@
 .hero-area {
-  padding: 300px 0 200px;
+  padding: 200px 0 20px;
   position: relative;
   @include tablet {
     padding: 250px 0 150px;
@@ -8,6 +8,15 @@
   h1{
     position: relative;
     z-index: 2;
+    text-align: center;
+  }
+  h4{
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    z-index: 2;
+    text-align: center;
+    color: #c2d2cb;
   }
 }
 
